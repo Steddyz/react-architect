@@ -1,0 +1,28 @@
+.banner {
+  display: flex;
+  margin: 0 auto;
+  min-height: 750px;
+  max-width: 1400px;
+}
+
+.banner__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner_left {
+  width: 550px;
+}
+
+.banner__title {
+  font-weight: 500;
+  font-size: 56px;
+}
+
+.banner__description {
+  margin: 50px 0 50px 0;
+
+  font-size: 32px;
+  opacity: 0.8;
+}

@@ -1,0 +1,25 @@
+.contact {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: end;
+
+  width: 100%;
+  background-color: rgba(0, 162, 255, 0.685);
+  min-height: 50px;
+}
+
+.contact__wrapper {
+  display: flex;
+  margin: 0 auto;
+
+  align-items: center;
+  justify-content: end;
+  min-width: 1400px;
+}
+
+.contact__item {
+  font-size: 18px;
+  color: #fff;
+  padding-left: 24px;
+  padding-right: 24px;
+}
