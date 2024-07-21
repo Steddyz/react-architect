@@ -2,6 +2,7 @@ import React from "react";
 
 import cl from "./Header.module.css";
 import logo from "../../images/logo.jpg";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -13,9 +14,18 @@ export default function Header() {
         </div>
         <div className={cl.header__right}>
           <nav className={cl.navigation}>
-            <p className={cl.item}>Галерея</p>
-            <p className={cl.item}>Контакты</p>
-            <p className={cl.item}>О нас</p>
+            <Link to="/" className={cl.item}>
+              Главная
+            </Link>
+            <Link to="/gallery" className={cl.item}>
+              Галерея
+            </Link>
+            <Link to="/contact" className={cl.item}>
+              Контакты
+            </Link>
+            <Link to="/about" className={cl.item}>
+              О нас
+            </Link>
           </nav>
         </div>
       </div>
