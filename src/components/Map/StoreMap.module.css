@@ -17,3 +17,11 @@
   width: 1400px;
   height: 550px;
 }
+
+.map__title {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 46px;
+  padding: 40px;
+}

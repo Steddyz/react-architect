@@ -1,0 +1,17 @@
+.footer {
+  font-size: 18px;
+  display: flex;
+  color: #fff;
+  background-color: rgb(61, 61, 61);
+  height: 90px;
+}
+
+.footer__wrapper {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.footer__span {
+  margin-left: 5px;
+}

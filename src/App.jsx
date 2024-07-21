@@ -1,9 +1,10 @@
 import Contact from "./components/Contacts/Contact";
 import Header from "./components/Header/Header";
-import GalleryPage from "./pages/GalleryPage";
-import MainPage from "./pages/MainPage";
-import ContactPage from "./pages/ContactPage";
-import AboutPage from "./pages/AboutPage";
+import GalleryPage from "./pages/GalleryPage/GalleryPage";
+import MainPage from "./pages/MainPage/MainPage";
+import ContactPage from "./pages/ContactPage/ContactPage";
+import AboutPage from "./pages/AboutPage/AboutPage";
+import Footer from "./components/Footer/Footer";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="*" element={<MainPage />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 }
