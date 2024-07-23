@@ -25,3 +25,25 @@
   font-size: 46px;
   padding: 40px;
 }
+
+@media (max-width: 768px) {
+  .map__wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .mapp {
+    width: 100%;
+  }
+
+  .yandex_map {
+    width: 100%;
+    height: 300px;
+  }
+
+  .map__title {
+    font-size: 28px;
+    padding: 20px;
+  }
+}

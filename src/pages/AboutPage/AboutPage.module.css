@@ -2,9 +2,13 @@
   display: flex;
   box-sizing: border-box;
   justify-content: end;
+  background-color: #000;
+  color: #fff;
 
   width: 100%;
   min-height: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .about__wrapper {
@@ -25,10 +29,6 @@
   max-width: 500px;
 }
 
-.about__right {
-  display: flex;
-}
-
 .about__navigation {
   display: flex;
 }
@@ -40,7 +40,6 @@
 }
 
 .about__image {
-  background-color: #ccc;
   width: 500px;
   height: 500px;
 }

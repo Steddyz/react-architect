@@ -1,6 +1,7 @@
 import React from "react";
 
 import cl from "./Banner.module.css";
+import banner from "../../images/bannerMain.jpg";
 
 export default function Banner() {
   return (
@@ -13,7 +14,11 @@ export default function Banner() {
           <p className={cl.banner__description}>ВЫСОКОЙ ПРОЧНОСТИ</p>
           <hr />
         </div>
-        <div className={cl.banner_right}></div>
+        <div className={cl.banner_right}>
+          <nav className={cl.banner__navigation}>
+            <img src={banner} alt="banner" className={cl.banner__image} />
+          </nav>
+        </div>
       </div>
     </div>
   );
