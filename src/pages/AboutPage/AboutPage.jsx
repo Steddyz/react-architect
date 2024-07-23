@@ -9,7 +9,7 @@ export default function AboutPage() {
       <div className={cl.about__wrapper}>
         <div className={cl.about__left}>
           <h4 className={cl.about__title}>Коротко о наc</h4>
-          <p>
+          <p className={cl.about__description}>
             Архитектурная мастерская, специализирующаяся на изготовлении изделий
             из архитектурного бетона, - это место, где рождаются шедевры,
             соединяющие в себе искусство, технологию и историю. Каждый предмет,
