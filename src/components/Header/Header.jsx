@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 import cl from "./Header.module.css";
 import logo from "../../images/logo.jpg";
+import { RxHamburgerMenu } from "react-icons/rx";
 import { Link } from "react-router-dom";
 
 export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div className={cl.header}>
       <div className={cl.header__wrapper}>
@@ -13,7 +20,7 @@ export default function Header() {
           <p className={cl.title}>Architectural workshop</p>
         </div>
         <div className={cl.header__right}>
-          <nav className={cl.navigation}>
+          <nav className={`${cl.navigation} ${isMenuOpen ? cl.open : ""}`}>
             <Link to="/" className={cl.item}>
               Главная
             </Link>
@@ -27,6 +34,10 @@ export default function Header() {
               О нас
             </Link>
           </nav>
+
+          <div className={cl.burger} onClick={toggleMenu}>
+            <RxHamburgerMenu className={cl.burger__icon} />
+          </div>
         </div>
       </div>
     </div>
