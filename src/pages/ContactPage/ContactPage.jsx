@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 import { SlSocialVkontakte } from "react-icons/sl";
 import { FaInstagram } from "react-icons/fa";
 
-import contacts from "../../images/contacts.png";
+import contacts from "../../images/phone.jpg";
 
 import cl from "./ContactPage.module.css";
 
