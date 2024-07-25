@@ -1,27 +1,27 @@
 import React from "react";
 
 import cl from "./GalleryPage.module.css";
+import Gallery from "../../components/Gallery/Gallery";
+import banner from "../../images/bannerMain.jpg";
 
 export default function GalleryPage() {
   return (
     <div className={cl.gallery}>
-      <div className={cl.wrapper}>
-        <div className={cl.gallery__banner}>
-          <div className={cl.gallery__banner_left}>
-            <h4 className={cl.gallery__title}>Наши работы</h4>
-          </div>
-          <div className={cl.gallery__banner_right}>
-            <img alt="banner" />
-          </div>
-        </div>
-        <div className={cl.gallery__list}>
-          <div className={cl.list__item}>
-            <div className={cl.item__wrapper}>
-              <img alt="item" />
-              <p zxczxc></p>
+      <div className={cl.gallery__wrapper}>
+        <div className={cl.banner}>
+          <div className={cl.banner__wrapper}>
+            <div className={cl.banner_left}>
+              <h4 className={cl.banner__title}>Галерея</h4>
+              <hr className={cl.banner__hr} />
+            </div>
+            <div className={cl.banner_right}>
+              <nav className={cl.banner__navigation}>
+                <img src={banner} alt="banner" className={cl.banner__image} />
+              </nav>
             </div>
           </div>
         </div>
+        <Gallery />
       </div>
     </div>
   );

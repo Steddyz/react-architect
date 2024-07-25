@@ -16,7 +16,9 @@ export default function Header() {
     <div className={cl.header}>
       <div className={cl.header__wrapper}>
         <div className={cl.header__left}>
-          <img className={cl.logo} src={logo} alt="logo" />
+          <Link to="/" className={cl.item}>
+            <img className={cl.logo} src={logo} alt="logo" />
+          </Link>
           <p className={cl.title}>Architectural workshop</p>
         </div>
         <div className={cl.header__right}>

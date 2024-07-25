@@ -1,6 +1,5 @@
 .header {
   display: flex;
-  box-sizing: border-box;
   justify-content: end;
 
   width: 100%;
@@ -144,6 +143,17 @@
 
   .navigation.open {
     left: 150px;
+    top: 160px;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo {
+    margin-left: 680px;
+  }
+
+  .navigation.open {
+    left: 100px;
     top: 160px;
   }
 }

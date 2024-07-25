@@ -12,7 +12,7 @@ export default function Banner() {
             Производство декоративных изделий
           </h4>
           <p className={cl.banner__description}>ВЫСОКОЙ ПРОЧНОСТИ</p>
-          <hr />
+          <hr className={cl.banner__hr} />
         </div>
         <div className={cl.banner_right}>
           <nav className={cl.banner__navigation}>
