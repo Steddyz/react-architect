@@ -6,9 +6,9 @@ import cl from "./Gallery.module.css";
 export default function Gallery() {
   return (
     <div className={cl.galley}>
-      {products.map((image, id) => (
+      {products.map((product, id, alt) => (
         <div key={id} className={cl.galley__card}>
-          <img src={image} alt="image" className={cl.galley__image} />
+          <img src={product.image} alt="image" className={cl.galley__image} />
         </div>
       ))}
     </div>
