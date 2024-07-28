@@ -136,13 +136,23 @@
   }
 }
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
   .header__left {
     margin-left: 420px;
   }
 
   .navigation.open {
     left: 150px;
+    top: 160px;
+  }
+} */
+@media (max-width: 375px) {
+  .header__left {
+    margin-left: 420px;
+  }
+
+  .navigation.open {
+    left: 50px;
     top: 160px;
   }
 }
@@ -156,7 +166,7 @@
   }
 
   .navigation.open {
-    left: 100px;
+    left: 0;
     top: 160px;
   }
 }
