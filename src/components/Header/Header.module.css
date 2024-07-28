@@ -137,8 +137,8 @@
 }
 
 @media (max-width: 375px) {
-  .logo {
-    margin-left: 620px;
+  .header__left {
+    margin-left: 420px;
   }
 
   .navigation.open {
@@ -148,6 +148,9 @@
 }
 
 @media (max-width: 320px) {
+  .header__left {
+    margin-left: 400px;
+  }
   .logo {
     margin-left: 680px;
   }
@@ -155,5 +158,11 @@
   .navigation.open {
     left: 100px;
     top: 160px;
+  }
+}
+
+@media (max-width: 390px) {
+  .logo {
+    margin-left: 600px;
   }
 }
