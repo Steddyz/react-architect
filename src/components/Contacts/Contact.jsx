@@ -10,11 +10,11 @@ export default function Contact() {
       <ul className={cl.contact__wrapper}>
         <lI className={cl.contact__item}>
           <FaPhone style={{ marginRight: "8px" }} />
-          +7 (978) 738 97 740
+          +7 (978) 752 69 17
         </lI>
         <lI className={cl.contact__item}>
           <FaMapMarkerAlt style={{ marginRight: "8px" }} />
-          г. Симферополь, ул. Узловая, 2/7
+          г. Симферополь, ул. Скалистая, 11
         </lI>
       </ul>
     </div>

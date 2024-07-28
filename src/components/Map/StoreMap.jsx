@@ -21,11 +21,11 @@ export default function StoreMap() {
           <Map
             className={cl.yandex_map}
             defaultState={{
-              center: [44.99629902205905, 34.20300349858991],
+              center: [44.967104074572845, 34.13312399999995],
               zoom: 15,
             }}
           >
-            <Placemark geometry={[44.99629902205905, 34.20300349858991]} />
+            <Placemark geometry={[44.967104074572845, 34.13312399999995]} />
             <ZoomControl options={{ float: "right" }} />
             <TypeSelector options={{ float: "right" }} />
             <GeolocationControl options={{ float: "left" }} />
