@@ -32,8 +32,8 @@ export default function ContantPage() {
                 </a>
                 <hr className={cl.item__hr} />
                 <p className={cl.links__title}>
-                  <b className={cl.contact__span}>Почта:</b>
-                  qwesteddyoff@gmail.com
+                  <b className={cl.contact__span}>Почта: </b>
+                  2018asm@mail.ru
                 </p>
               </li>
               <li className={cl.links__item}>

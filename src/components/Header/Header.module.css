@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  border-bottom: 3px solid #f2f4f5;
+  border-bottom: 2px solid #40312ea1;
   padding: 10px;
 }
 
@@ -20,6 +20,7 @@
   align-items: center;
   width: 70px;
   height: 70px;
+  border-radius: 50%;
 }
 
 .header__left,
@@ -37,6 +38,7 @@
 
 .item {
   font-size: 20px;
+  color: #40312e;
   margin: 10px;
   cursor: pointer;
   transition: all 0.1s ease-in;
@@ -55,7 +57,7 @@
 }
 
 .item:hover {
-  color: #6e6e6ecc;
+  color: #aaaaaa;
 }
 
 .item:last-child {
@@ -66,6 +68,7 @@
   font-weight: 500;
   font-size: 24px;
   margin-left: 15px;
+  color: #40312e;
 }
 
 @media (max-width: 768px) {

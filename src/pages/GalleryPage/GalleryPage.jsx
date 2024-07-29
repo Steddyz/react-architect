@@ -2,7 +2,7 @@ import React from "react";
 
 import cl from "./GalleryPage.module.css";
 import Gallery from "../../components/Gallery/Gallery";
-import banner from "../../images/bannerMain.jpg";
+import bannerGallery from "../../images/bannerGallery.jpg";
 
 export default function GalleryPage() {
   return (
@@ -16,7 +16,11 @@ export default function GalleryPage() {
             </div>
             <div className={cl.banner_right}>
               <nav className={cl.banner__navigation}>
-                <img src={banner} alt="banner" className={cl.banner__image} />
+                <img
+                  src={bannerGallery}
+                  alt="banner"
+                  className={cl.banner__image}
+                />
               </nav>
             </div>
           </div>

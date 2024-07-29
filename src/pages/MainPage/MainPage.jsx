@@ -5,7 +5,7 @@ import StoreMap from "../../components/Map/StoreMap";
 
 export default function MainPage() {
   return (
-    <div>
+    <div >
       <Banner />
       <StoreMap />
     </div>

@@ -27,6 +27,10 @@ import img25 from "./src/images/works/img25.jpg";
 import img26 from "./src/images/works/img26.jpg";
 import img27 from "./src/images/works/img27.jpg";
 import img28 from "./src/images/works/img28.jpg";
+import img29 from "./src/images/works/img29.jpg";
+import img30 from "./src/images/works/img30.jpg";
+import img31 from "./src/images/works/img31.jpg";
+import img32 from "./src/images/works/img32.jpg";
 
 export const products = [
   {
@@ -172,6 +176,26 @@ export const products = [
   {
     id: 28,
     image: `${img28}`,
+    alt: "image",
+  },
+  {
+    id: 29,
+    image: `${img29}`,
+    alt: "image",
+  },
+  {
+    id: 30,
+    image: `${img30}`,
+    alt: "image",
+  },
+  {
+    id: 31,
+    image: `${img31}`,
+    alt: "image",
+  },
+  {
+    id: 32,
+    image: `${img32}`,
     alt: "image",
   },
 ];
