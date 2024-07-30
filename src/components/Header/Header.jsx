@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import cl from "./Header.module.css";
-import logo from "../../images/logo.jpg";
+import logo from "../../images/logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Link } from "react-router-dom";
 
